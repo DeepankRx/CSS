@@ -1,0 +1,110 @@
+body {
+    font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container {
+    background-color: #eee;
+    height: 1475px;
+    width: 1000px;
+    margin: 50px auto 10px auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h1 {
+    position: relative;
+    display: inline-block;
+    font-size: 50px;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-weight: 400;
+    text-emphasis: none;
+}
+
+h5 {
+    margin-top: 25px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 20;
+    margin-bottom: 0;
+}
+
+h6 {
+    font-weight: 20;
+    display: inline-block;
+    font-size: 35px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+div p {
+    margin: 0 25px 0 25px;
+    border: 2px solid #e3e3e3;
+    border-radius: 2px;
+    padding: 2px;
+}
+
+.image-box {
+    border: 2px solid #e3e3e3;
+    height: 515px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+.image-box img {
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 400px;
+    height: 450px;
+}
+
+#oneLine {
+   
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #ddd;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.one-line p {
+    position: relative;
+    width: 80%;
+    text-align: center;
+}
+
+h2 {
+    position: absolute;
+    margin-left: 25px;
+    margin-right: 470px;
+    font-weight: normal;
+    padding-bottom: 50px;
+    display: block;
+}
+
+ul {
+    list-style-type: circle;
+    margin: 75px 25px 0 25px;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    padding: 20px;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(38, 186, 255);
+}
+
+.credit {
+    text-align: center;
+    width: 800px;
+}
