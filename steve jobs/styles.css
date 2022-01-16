@@ -1,0 +1,187 @@
+.container
+{
+background-color: white;
+width:1100px;
+margin:0 auto 0 auto;
+}
+
+.canvas
+{
+    
+    width:950px;   
+    height: 550px;
+    background: url(https://www.helpscout.com/images/blog/steve-jobs.jpg);
+    background-size: cover;
+    
+}
+.title
+{
+    font-family:'Pacifico', cursive;
+    width: 950px;
+    text-align: center;
+}
+.title h3
+{
+    font-size:25px;
+    font-weight:normal;
+}
+.timeline
+{
+    font-family:'Noto Serif', serif;
+    
+}
+
+.timeline h2
+{
+    color:#eee;
+    font-size:50px;
+    font-weight:15px;
+    margin-left: 150px;
+    padding-top: 50px;
+    padding-top: 30px;
+}
+#timeline-container
+{
+    display:inline-block;
+    width:975px;
+    margin-right: 0;
+}
+.event-date-first-child
+{
+    display: inline-block;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    margin-left:50px;
+    border-top: 2px solid #cab9b9;
+    border-bottom: 2px solid #cab9b9;
+    padding:20px;
+    padding-top:10px;
+    width:100px;
+    font-weight: bold;
+}
+.event-date-nth-child
+{
+    display: inline-block;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    margin-left:50px;
+    border-bottom: 2px solid #cab9b9;
+    padding:20px;
+    padding-top:10px;
+    width:100px;
+    font-weight: bold;
+}
+.event-desc-first-child
+{
+    margin-top:1px;
+    margin-bottom:1px;
+    border-top: 1px solid #d1d1d1;
+    border-bottom: 2px solid #cab9b9;
+    padding-top:9px ;
+    padding-bottom:5.5px;
+    width: 750px;
+    padding-left:5px;
+    color:rgb(29, 29, 29);
+    padding-right:25px;
+    position: absolute;
+    display: inline-block;
+    background-color: #e9e9e9;
+    font-weight: 50;
+}
+.event-desc-nth-child
+{
+    padding-right:25px;
+    padding-left:5px;
+    border-bottom: 2px solid #cab9b9;
+    padding-top:10px ;
+    padding-bottom:4.5px;
+    width: 750px;
+    position: absolute;
+    display: inline-block;
+    color:rgb(29, 29, 29);
+    background-color: #e9e9e9;
+}
+.event-desc-nth-child-single-line
+{
+    
+    padding-right:25px;
+    padding-left:5px;
+    border-bottom: 2px solid #cab9b9;
+    padding-top:10px ;
+    padding-bottom:22.5px;
+    width: 750px;
+    position: absolute;
+    display: inline-block;
+    background-color: #e9e9e9;
+    color:rgb(29, 29, 29);
+}
+.last-date
+{
+    border-bottom: 0px solid #000;
+}
+
+.nutshell 
+{
+ 
+    display: inline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width:500px;
+    text-align: center;
+    float: right;
+}
+.nutshell-img img
+{
+    height: 250px;
+    border: 3px solid #ccc;
+    filter: grayscale(50%);
+    padding: 0;
+    margin: 0;
+}
+
+
+.info
+{   
+    
+    font-family: 'Dosis', sans-serif;
+    padding: 35px;
+    padding-right:0;
+    font-size: 12px;
+}
+
+
+.nutshell-head
+{
+    font-size: 16px;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 70px;
+}
+
+
+.nutshell-detail
+{
+    position: absolute;
+    width:150px;
+    float: right;
+    margin-left: 175px;
+    border-bottom: 1.5px solid #ccc;
+}
+
+
+.quote
+{
+    font-size: 30px;
+    margin:50px;
+    text-align: center;
+    font-family:'Pacifico', cursive;
+    width: 85%;
+    height:300px;
+    background-color: #eee;
+    letter-spacing: 2px;
+}
+
+a
+{
+    text-decoration: none;
+    color: rgb(0, 217, 255);
+}

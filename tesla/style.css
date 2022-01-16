@@ -102,3 +102,13 @@ a {
     text-align: center;
     width: 800px;
 }
+@media only screen and (max-width: 600px) {
+    .container {
+        height: 100%;
+        width: 100%;
+    }
+    img {
+        width: 100px;
+       height:100px;
+    }
+  }
