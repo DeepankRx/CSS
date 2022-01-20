@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container {
+    background-color: aquamarine;
+
+    height: 700px;
+    display:grid;
+    /* grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr); */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 43px 1fr 43px;
+    align-items: center;
+    /* 1fr = 1 grid-line 
+1 fraction of the available space */
+
+
+
+    /* grid-template-columns: 133px 133px 133px;
+grid-template-rows: 133px 133px 133px; */
+    row-gap: 12px;
+    /* column-gap: 12px; */
+
+    justify-items: start;
+
+    /* 
+        justify-items works on grid containers only.
+        justify-self works on grid items only.
+    */
+}
+
+.item {
+    background-color: plum;
+
+    height: 122px;
+
+    width: 122px;
+}
+
+.item1 {
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    /* shorthand to span columns */
+    /* grid-column : 1 / 4;  */
+    grid-column: 1 /span 4;
+    /* shorthand to span columns */
+    background-color: aqua;
+    width: 100vw;
+}
+
+
+.item2 {
+    justify-self: start;
+    /*align horizontally*/
+    align-self: end;
+    /*align vertically*/
+    /* place-self: end; It is used to align horizontally as well as vertically */
+}
+
+.footer {
+    background-color: aqua;
+    width: 100vw;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
