@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial;
+}
+
+.container {
+    height: auto;
+    display: grid;
+}
+
+.header {
+    display: grid;
+    background-image: url('https://static.pexels.com/photos/248515/pexels-photo-248515.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    justify-items: center;
+    text-align: center;
+    grid-template-columns: 1;
+    grid-template-rows: 1;
+    filter: saturate(1);
+}
+
+.item {
+    margin-top: 40px;
+    grid-row: 1 / 2;
+}
+
+h1 {
+    color: white;
+    line-height: 1;
+    font-size: 2em;
+    padding: 50px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+p {
+    display: inline-block;
+    color: white;
+    padding-top: 0;
+    word-spacing: 3px;
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: 200;
+}
+
+button {
+    padding: 25px 45px;
+    background-color: #333;
+    border: 0.5px solid rgb(182, 182, 182);
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.second-container {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+    /* height: 200px; */
+    background-color: #eaeaea;
+}
+
+.second-container h2 {
+    margin-top: 10;
+    padding-top: 20px;
+    color: black;
+    grid-column: 1 /span 2;
+}
+
+.second-container p {
+    color: black;
+    padding: 0 50px 50px 50px;
+    width: 400px;
+    padding-left: 0;
+    font-size: 17px;
+}
+
+.p1 {
+    justify-self: end;
+}
+
+.p2 {
+    justify-self: start;
+}
+
+.third-container {
+    display: grid;
+    grid-template-columns: auto 290px 290px 290px auto;
+    background-color: #333;
+    /* justify-content:space-between; */
+    column-gap: 20px;
+    grid-column-end: inherit;
+}
+
+#one {
+    grid-column: 2;
+}
+
+#two {
+    grid-column: 3;
+}
+
+#three {
+    grid-column: 4;
+}
+
+.card {
+    background-color: #fff;
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.card h1 {
+    padding-top: 40px;
+    font-size: 20px;
+    color: black;
+}
+
+.card img {
+
+    width: 100%;
+}
+
+.card p {
+    color: black;
+    width: 65%;
+}
+
+.fourth-container {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    /* height: 200px; */
+    background-color: #eaeaea;
+}
+
+.fourth-container h2 {
+    margin-top: 40px;
+    padding-top: 20px;
+    color: black;
+    grid-column: 1 /span 2;
+}
+
+.fourth-container p {
+    margin-top: 0;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    color: black;
+    width: 50%;
+    justify-self: center;
+    grid-column: 1 /span 2;
+}
+
+.fifth-container {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.contact-us {
+    grid-row: 1 /span 2;
+    background-color: #2690d4;
+    height: auto;
+}
+
+.contact-us p {
+    padding: 40px;
+    padding-bottom: 0px;
+}
+
+.about-company {
+    grid-row: 1 /span 2;
+    background-color: #333;
+    height: auto;
+}
+
+.about-company p {
+    padding: 40px;
+}
+
+.footer {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: black;
+}
+
+.footer p {
+    place-self: center;
+    padding: 20px;
+    /* width:100%; */
+}
+
+a {
+    text-decoration: none;
+    color: #2690d4;
+}
+
+@media screen and (max-width: 700px) {
+
+    .container
+    {
+        height:100px;
+    }
+    .container,.second-container,.third-container,.fourth-container,.fifth-container
+   {
+       display: inline-block;
+       width: 100%;
+   }
+  
+    .second-container p
+   {
+        margin-top:0 ;
+        
+        margin-bottom: 0;
+        width: auto;
+    }
+    #contact
+    {
+        /* padding: 0; */
+        margin: 0;
+    }
+    #about
+    {
+        margin: 0;
+    }
+    .footer
+    {
+       display: block;
+       padding:25px;
+    }
+    .footer p
+    {
+        margin: 0;
+        padding: 0;
+    }
+}
